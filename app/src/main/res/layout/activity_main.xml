@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:scaleType="centerCrop"
+            android:layout_above="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/unicorn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/table_layout"
+            android:src="@drawable/unicorn"/>
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_star_24dp"
+            android:text="OPTION"
+            android:textColor="#cca8ff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/setting"
+            android:gravity="right"
+            android:ellipsize="start"
+            android:singleLine="true"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_above="@+id/table_layout"
+            android:gravity="center|right"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:layout_marginLeft="5dp"
+            android:layout_above="@+id/table_layout"
+            android:textSize="35dp" />
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:stretchColumns="0,1,2,3,4">
+
+            <TableRow
+                style="?attr/actionBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/clear"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:background="@drawable/clear_button"
+                    android:text="CREAR"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/percent"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="%"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/division"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="÷"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                style="?attr/actionBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button7"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="7"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="8"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button9"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="9"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/multiply"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="×"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                style="?attr/actionBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button4"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="4"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="5"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="6"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/minus"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="-"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                style="?attr/actionBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button1"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="1"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="2"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="3"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/plus"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="+"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </TableRow>
+
+            <TableRow
+                style="?attr/actionBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button0"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/button00"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="00"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/decimal_point"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="."
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/equal"
+                    style="?attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ten_key"
+                    android:text="="
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
