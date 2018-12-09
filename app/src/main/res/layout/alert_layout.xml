@@ -30,16 +30,14 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design2" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design3"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design3" />
+            android:clickable="true" />
 
     </LinearLayout>
 
@@ -56,32 +54,28 @@
             android:id="@+id/design4"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:clickable="true"
-            android:background="@drawable/design4" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design5"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design5" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design6"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design6" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design7"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design7" />
+            android:clickable="true" />
 
     </LinearLayout>
 
@@ -98,38 +92,34 @@
             android:id="@+id/design8"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:clickable="true"
-            android:background="@drawable/design8" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design9"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design9" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design10"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design10" />
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/design11"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:background="@drawable/design11" />
+            android:clickable="true" />
 
     </LinearLayout>
 
     <View
         android:id="@+id/line"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"

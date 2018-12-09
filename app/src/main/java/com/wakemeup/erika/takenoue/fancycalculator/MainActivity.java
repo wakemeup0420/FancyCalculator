@@ -443,6 +443,7 @@ public class MainActivity extends AppCompatActivity {
                             editor.putInt("Design", Design);
                             editor.commit();
                             mDisplay.setImageResource(Design);
+                            Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
                         }
                     })
                     .setNegativeButton("Close", null)
@@ -457,13 +458,13 @@ public class MainActivity extends AppCompatActivity {
     int ClickDesign4 = R.drawable.design4;
     int ClickDesign5 = R.drawable.design5;
     int ClickDesign6 = R.drawable.design6;
-    int ClickDesign7 = R.drawable.design7;
+    int ClickDesign7 = R.drawable.design7_click;
     int ClickDesign8 = R.drawable.design8;
     int ClickDesign9 = R.drawable.design9;
     int ClickDesign10 = R.drawable.design10;
     int ClickDesign11 = R.drawable.design11;
 
-    int design = R.id.setting; //押されたデザインボタン
+    int design = R.id.design7; //押されたデザインボタン
     int Design = R.drawable.night; //画面に表示するデザイン
 
     //デザイン選択画面処理
@@ -486,7 +487,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design1) {
                 Design = R.drawable.moreheart_illumination;
                 ClickNoDesign = R.drawable.no_design;
@@ -502,7 +502,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design2) {
                 Design = R.drawable.cosmo;
                 ClickNoDesign = R.drawable.no_design;
@@ -518,7 +517,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design3) {
                 Design = R.drawable.heart_purple;
                 ClickNoDesign = R.drawable.no_design;
@@ -534,7 +532,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design4) {
                 Design = R.drawable.cosmo2;
                 ClickNoDesign = R.drawable.no_design;
@@ -550,7 +547,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design5) {
                 Design = R.drawable.heart_purple2;
                 ClickNoDesign = R.drawable.no_design;
@@ -566,7 +562,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design6) {
                 Design = R.drawable.constellation;
                 ClickNoDesign = R.drawable.no_design;
@@ -582,7 +577,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design7) {
                 Design = R.drawable.night;
                 ClickNoDesign = R.drawable.no_design;
@@ -598,7 +592,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design8) {
                 Design = R.drawable.light;
                 ClickNoDesign = R.drawable.no_design;
@@ -614,7 +607,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design9) {
                 Design = R.drawable.pure;
                 ClickNoDesign = R.drawable.no_design;
@@ -630,7 +622,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design10) {
                 Design = R.drawable.design_heart;
                 ClickNoDesign = R.drawable.no_design;
@@ -646,7 +637,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10_click;
                 ClickDesign11 = R.drawable.design11;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             } else if (design == R.id.design11) {
                 Design = R.drawable.design_heart2;
                 ClickNoDesign = R.drawable.no_design;
@@ -662,7 +652,6 @@ public class MainActivity extends AppCompatActivity {
                 ClickDesign10 = R.drawable.design10;
                 ClickDesign11 = R.drawable.design11_click;
                 ClickDesign(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
-                Shared(ClickNoDesign,ClickDesign1,ClickDesign2,ClickDesign3,ClickDesign4,ClickDesign5,ClickDesign6,ClickDesign7,ClickDesign8,ClickDesign9,ClickDesign10,ClickDesign11);
             }
         }
     };
